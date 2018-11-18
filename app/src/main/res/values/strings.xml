@@ -7,6 +7,100 @@
     <string name="tab_text_3">Fairs</string>
     <string name="tab_text_4">Movies</string>
 
+    <string name="details_screen_label">Details</string>
+    <string name="dummy_details_placeTitle">Place Title</string>
+    <string name="dummy_details_placeAddress">Place Address</string>
+    <string name="dummy_details_placeDescription">Place Description</string>
+
     <string name="place_title">Place Title</string>
     <string name="place_location">Place Location</string>
+
+    <string name="placeTypeRest">restaurant</string>
+    <string name="placeTypePark">park</string>
+    <string name="placeTypeFare">fair</string>
+    <string name="placeTypeMovie">movie</string>
+
+
+    <string name="rest1Title">Restaurant 1</string>
+    <string name="rest1Address">Address 1</string>
+    <string name="rest1Description">Description 1</string>
+
+    <string name="rest2Title">Restaurant 2</string>
+    <string name="rest2Address">Address 2</string>
+    <string name="rest2Description">Description 2</string>
+
+    <string name="rest3Title">Restaurant 3</string>
+    <string name="rest3Address">Address 3</string>
+    <string name="rest3Description">Description 3</string>
+
+    <string name="rest4Title">Restaurant 4</string>
+    <string name="rest4Address">Address 4</string>
+    <string name="rest4Description">Description 4</string>
+
+    <string name="rest5Title">Restaurant 5</string>
+    <string name="rest5Address">Address 5</string>
+    <string name="rest5Description">Description 5</string>
+
+
+    <string name="park1Title">Park 1</string>
+    <string name="park1Address">Address 1</string>
+    <string name="park1Description">Description 1</string>
+
+    <string name="park2Title">Park 2</string>
+    <string name="park2Address">Address 2</string>
+    <string name="park2Description">Description 2</string>
+
+    <string name="park3Title">Park 3</string>
+    <string name="park3Address">Address 3</string>
+    <string name="park3Description">Description 3</string>
+
+    <string name="park4Title">Park 4</string>
+    <string name="park4Address">Address 4</string>
+    <string name="park4Description">Description 4</string>
+
+    <string name="park5Title">Park 5</string>
+    <string name="park5Address">Address 5</string>
+    <string name="park5Description">Description 5</string>
+
+
+    <string name="fair1Title">Fair 1</string>
+    <string name="fair1Address">Address 1</string>
+    <string name="fair1Description">Description 1</string>
+
+    <string name="fair2Title">Fair 2</string>
+    <string name="fair2Address">Address 2</string>
+    <string name="fair2Description">Description 2</string>
+
+    <string name="fair3Title">Fair 3</string>
+    <string name="fair3Address">Address 3</string>
+    <string name="fair3Description">Description 3</string>
+
+    <string name="fair4Title">Fair 4</string>
+    <string name="fair4Address">Address 4</string>
+    <string name="fair4Description">Description 4</string>
+
+    <string name="fair5Title">Fair 5</string>
+    <string name="fair5Address">Address 5</string>
+    <string name="fair5Description">Description 5</string>
+
+
+    <string name="movie1Title">Movie 1</string>
+    <string name="movie1Address">Address 1</string>
+    <string name="movie1Description">Description 1</string>
+
+    <string name="movie2Title">Movie 2</string>
+    <string name="movie2Address">Address 2</string>
+    <string name="movie2Description">Description 2</string>
+
+    <string name="movie3Title">Movie 3</string>
+    <string name="movie3Address">Address 3</string>
+    <string name="movie3Description">Description 3</string>
+
+    <string name="movie4Title">Movie 4</string>
+    <string name="movie4Address">Address 4</string>
+    <string name="movie4Description">Description 4</string>
+
+    <string name="movie5Title">Movie 5</string>
+    <string name="movie5Address">Address 5</string>
+    <string name="movie5Description">Description 5</string>
 </resources>

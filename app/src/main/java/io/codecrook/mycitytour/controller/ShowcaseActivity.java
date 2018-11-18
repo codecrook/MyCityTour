@@ -1,23 +1,19 @@
-package io.codecrook.mycitytour;
+package io.codecrook.mycitytour.controller;
 
 import android.support.design.widget.TabLayout;
-import android.support.design.widget.FloatingActionButton;
-import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
-import android.support.v7.widget.Toolbar;
 
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
 import android.support.v4.view.ViewPager;
 import android.os.Bundle;
-import android.view.LayoutInflater;
-import android.view.Menu;
-import android.view.MenuItem;
-import android.view.View;
-import android.view.ViewGroup;
 
-import android.widget.TextView;
+import io.codecrook.mycitytour.R;
+import io.codecrook.mycitytour.view.FairFragment;
+import io.codecrook.mycitytour.view.MovieFragment;
+import io.codecrook.mycitytour.view.ParkFragment;
+import io.codecrook.mycitytour.view.RestaurantFragment;
 
 public class ShowcaseActivity extends AppCompatActivity {
 
@@ -72,13 +68,13 @@ public class ShowcaseActivity extends AppCompatActivity {
         public Fragment getItem(int position) {
             switch (position) {
                 case 0:
-                    return new tab1();
+                    return new RestaurantFragment();
                 case 1:
-                    return new tab2();
+                    return new ParkFragment();
                 case 2:
-                    return new tab3();
+                    return new FairFragment();
                 case 3:
-                    return new tab4();
+                    return new MovieFragment();
             }
             return null;
         }

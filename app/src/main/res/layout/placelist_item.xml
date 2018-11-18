@@ -4,7 +4,9 @@
     android:id="@+id/place_container"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:orientation="horizontal">
+    android:orientation="horizontal"
+    android:paddingTop="@dimen/placelistItem_margin"
+    android:paddingBottom="@dimen/placelistItem_margin">
 
     <ImageView
         android:id="@+id/place_icon"

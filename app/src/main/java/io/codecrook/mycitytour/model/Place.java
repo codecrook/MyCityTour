@@ -1,4 +1,4 @@
-package io.codecrook.mycitytour;
+package io.codecrook.mycitytour.model;
 
 public class Place {
     private String mType;

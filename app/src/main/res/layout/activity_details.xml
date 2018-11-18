@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.DetailsActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <ImageView
+                android:layout_marginTop="5dp"
+                android:id="@+id/details_place_image"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/movies" />
+
+            <TextView
+                android:id="@+id/details_place_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="@dimen/details_padding"
+                android:paddingRight="@dimen/details_padding"
+                android:text="@string/dummy_details_placeTitle"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+                android:textColor="@color/black"
+                android:textSize="@dimen/details_title_textSize"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/details_place_address"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="@dimen/details_padding"
+                android:paddingRight="@dimen/details_padding"
+                android:text="@string/dummy_details_placeAddress"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                android:textSize="@dimen/details_address_textSize" />
+
+            <TextView
+                android:id="@+id/details_place_description"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="@dimen/details_padding"
+                android:paddingTop="@dimen/details_padding"
+                android:paddingRight="@dimen/details_padding"
+                android:text="@string/dummy_details_placeDescription"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+                android:textSize="@dimen/details_description_textSize"
+                android:textStyle="italic" />
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

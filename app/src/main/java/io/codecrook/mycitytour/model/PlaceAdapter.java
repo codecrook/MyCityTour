@@ -1,6 +1,5 @@
-package io.codecrook.mycitytour;
+package io.codecrook.mycitytour.model;
 
-import android.app.Activity;
 import android.content.Context;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -10,6 +9,9 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import java.util.ArrayList;
+
+import io.codecrook.mycitytour.R;
+import io.codecrook.mycitytour.model.Place;
 
 public class PlaceAdapter extends ArrayAdapter<Place> {
 

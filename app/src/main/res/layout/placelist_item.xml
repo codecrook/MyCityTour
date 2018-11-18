@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/place_container"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:id="@+id/place_icon"
+        android:layout_width="@dimen/placeIcon_widthHeight"
+        android:layout_height="@dimen/placeIcon_widthHeight"
+        android:layout_marginLeft="@dimen/placeIcon_marginLeft"
+        android:src="@drawable/movies" />
+
+    <LinearLayout
+        android:id="@+id/placeInfo"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/placeInfo_marginLeft"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/placeItem_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+            android:textSize="@dimen/placeTitle_textSize"
+            android:textStyle="bold"
+            tools:text="@string/place_title" />
+
+        <TextView
+            android:id="@+id/placeItem_location"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/placeLocation_textSize"
+            tools:text="@string/place_location" />
+    </LinearLayout>
+</LinearLayout>

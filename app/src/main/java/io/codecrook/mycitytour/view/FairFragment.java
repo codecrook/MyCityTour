@@ -30,7 +30,6 @@ public class FairFragment extends Fragment {
         fairs.add(new Place(getString(R.string.placeTypeFare), getString(R.string.fair2Title), getString(R.string.fair2Address), R.drawable.fairs, getString(R.string.fair2Description)));
         fairs.add(new Place(getString(R.string.placeTypeFare), getString(R.string.fair3Title), getString(R.string.fair3Address), R.drawable.fairs, getString(R.string.fair3Description)));
         fairs.add(new Place(getString(R.string.placeTypeFare), getString(R.string.fair4Title), getString(R.string.fair4Address), R.drawable.fairs, getString(R.string.fair4Description)));
-        fairs.add(new Place(getString(R.string.placeTypeFare), getString(R.string.fair5Title), getString(R.string.fair5Address), R.drawable.fairs, getString(R.string.fair5Description)));
 
 
         ListView placesListView = (ListView) rootView.findViewById(R.id.places_list_view);

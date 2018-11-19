@@ -30,7 +30,6 @@ public class ParkFragment extends Fragment {
         parks.add(new Place(getString(R.string.placeTypePark), getString(R.string.park2Title), getString(R.string.park2Address), R.drawable.park, getString(R.string.park2Description)));
         parks.add(new Place(getString(R.string.placeTypePark), getString(R.string.park3Title), getString(R.string.park3Address), R.drawable.park, getString(R.string.park3Description)));
         parks.add(new Place(getString(R.string.placeTypePark), getString(R.string.park4Title), getString(R.string.park4Address), R.drawable.park, getString(R.string.park4Description)));
-        parks.add(new Place(getString(R.string.placeTypePark), getString(R.string.park5Title), getString(R.string.park5Address), R.drawable.park, getString(R.string.park5Description)));
 
 
         ListView placesListView = (ListView) rootView.findViewById(R.id.places_list_view);
